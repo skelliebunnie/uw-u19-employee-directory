@@ -1,11 +1,11 @@
 # Employee Directory
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Last Commit](https://img.shields.io/github/last-commit/skelliebunnie/uw-u19-employee-directory)
-![Language Count](https://img.shields.io/github/languages/count/skelliebunnie/uw-u19-employee-directory)
-![Top Language](https://img.shields.io/github/languages/top/skelliebunnie/uw-u19-employee-directory)
+[![github/last-commit,github/languages/count,github/languages/top](https://img.shields.io/static/v1?label=github/last-commit,github/languages/count,github/languages/top&message=skelliebunnie&color=uw-u19-employee-directory)]
 
 ## Description
-A sortable, searchable employee database listing  photo, first name, last name, location (address), email, and date of birth. "Employee" data pulled from [RandomUser.me](https://randomuser.me/), built in React.
+A sortable, searchable employee database listing  photo, first name, last name, location (address), email, and date of birth. "Employee" data pulled from https://randomuser.me/
+
+Built in React.
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -15,10 +15,9 @@ A sortable, searchable employee database listing  photo, first name, last name, 
 * [Questions](#Questions)
 * [License](#License)
 
+screenshot.png
 
 ![Screenshot](screenshot.png)
-<em>Header background image from [Picsum Photos](https://picsum.photos); "employee" data from [RandomUser.me](https://randomuser.me/)</em>
-
 ## Installing
 - ```git clone``` to get local copy
 - ```npm start``` to start the server and open the page automatically in your browser

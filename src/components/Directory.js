@@ -14,6 +14,7 @@ export default class Table extends Component {
       userList: [],
       sortedUsers: [],
       filteredUsers: [],
+      filterValue: "",
       sortFirstDESC: null,
       sortLastDESC: null
     }
@@ -69,6 +70,7 @@ export default class Table extends Component {
     } else {
       this.setState({ filteredUsers: [] });
     }
+    this.setState({ filterValue: value });
   }
 
   handleOnChange(e) {
@@ -85,7 +87,7 @@ export default class Table extends Component {
       <div>
         <form className="form" onSubmit={(e) => this.handleOnSubmit(e)}>
         <div className="input-group mb-3">
-          <input type="text" className="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon2" onChange={(e) => this.handleOnChange(e)} />
+          <input type="text" className="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon2" onChange={(e) => this.handleOnChange(e)} value={this.state.filterValue} />
           <div className="input-group-append">
             <button className="btn btn-primary" type="button" onClick={(e) => this.handleOnSubmit(e)}><i className="fas fa-search"></i></button>
           </div>

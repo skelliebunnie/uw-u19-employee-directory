@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import SearchForm from '../components/SearchForm'
-import Table from '../components/Table'
+import Table from '../components/Directory'
 
 export default class Home extends Component {
   render() {
@@ -13,7 +12,6 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="container">
-          <SearchForm />
           <Table />
         </div>
       </>

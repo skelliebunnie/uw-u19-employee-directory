@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  background: linear-gradient(to bottom, rgba(0, 26, 44, 0.65), rgba(0, 26, 44,0.65)), url('https://picsum.photos/seed/gleipnir/800/400');
+  background-size: cover;
+  background-position: center / center;
+  color: white;
+  position: relative;
+}
+
+table {
+  width: 100%;
+}
+
+table img {
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+
+table thead tr {
+  background-color: #3f3f3f;
+  color: white;
+  text-align: center;
+}
+
+table thead th {
+  padding: 0.5rem 0;
+}
+
+table tbody tr { text-align: left; }
+
+table tbody tr:nth-child(2n) {
+  background-color: #efefef;
+}
+
+.far,
+.fas {
+  font-family: "FontAwesome";
+}

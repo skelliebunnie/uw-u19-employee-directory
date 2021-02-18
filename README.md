@@ -7,6 +7,9 @@
 ## Description
 A sortable, searchable employee database listing  photo, first name, last name, location (address), email, and date of birth. "Employee" data pulled from [RandomUser.me](https://randomuser.me/), built in React.
 
+## Deployment
+[Live on Heroku](https://shielded-eyrie-58046.herokuapp.com/)
+
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
